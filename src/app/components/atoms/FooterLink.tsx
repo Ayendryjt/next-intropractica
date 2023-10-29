@@ -11,6 +11,15 @@ export const FooterLink = (props: { linkText: string }) => {
         target="_blank"
       >
         {props.linkText}
+        <picture className="flex flex-center rounded-full">
+            <img
+              width="40"
+              height="28"
+              loading="lazy"
+              src="https://i.imgur.com/vUiouM8.png"
+              alt="Github logo"
+            />
+          </picture>
       </a>
     </>
   );
