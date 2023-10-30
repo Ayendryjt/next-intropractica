@@ -7,7 +7,7 @@ export const FooterContent = (props: { footerLinks: Array<string> }) => {
       <div className="flex justify-center">
         <a
           className="flex pr-2 border-dashed border-b-4 border-b-yellow-js hover:border-black mb-4"
-          href="https://github.com/Chd3451/next-intro.git"
+          href="https://midu.dev/"
           target="_blank"
           rel="noreferrer"
         >
